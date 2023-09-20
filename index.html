@@ -11,46 +11,82 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-  <link href="css/styles.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 
 </head>
 
-<header class="jumbotron"> 
-    <div class="row row-header"> ... </div>
-</header>
-
 <body>
-  <div class="container">
-    <div class="row row-content">
-      <div class="col-12 col-sm-6"> ... </div>
-      <div class="col-12 col-sm"> ... </div>
+  <header class="jumbotron">
+    <div class="container">
+      <div class="row row-header"> ... </div>
+      <div class="row">
+        <div class="col-12 col-sm-6"> ... </div>
+        <div class="col-12 col-sm">
+          <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">Ristorante Con Fusion</a>
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./aboutus.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
 
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+            <span class="navbar-toggler-icon">=</span>
+          </button>
+          <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="./aboutus.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
     </div>
-    <div class="row row-content">
+  </header>
+
+  <section>
+    <div class="row row-content align-items-center"></div>
+    <div class="row row-content align-items-center"></div>
+    <div class="row row-content align-items-center"></div>
+    <div class="row">
       <div class="col-12 col-sm-4 order-sm-last col-md-3"> ... </div>
       <div class="col col-sm order-sm-first col-md"> ... </div>
     </div>
-  </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-4 offset-1 col-sm-2">...</div>
+
+        <div class="col-7 col-sm-5"> ... </div>
+
+        <div class="col-12 col-sm-4 align-self-center"> ... </div>
+
+        <div class="col-auto"> ... </div>
+
+      </div>
+      <ul class="list-unstyled"> ... </ul>
+      <div class="text-center">
+      </div>
+  </footer>
+
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
-<footer class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-4 offset-1 col-sm-2">...</div>
 
-      <div class="col-7 col-sm-5"> ... </div>
 
-      <div class="col-12 col-sm-4"> ... </div>
-
-      <div class="col-auto"> ... </div>
-
-    </div>
-    <ul class="list-unstyled"> ... </ul>
-  </div>
-</footer>
-<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </html>
