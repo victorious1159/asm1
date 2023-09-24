@@ -18,7 +18,7 @@
 .jumbotron {
     padding:70px 30px 70px 30px;
     margin:0px auto;
-    background: #9575CD ;
+    background: #a6b8eb ;
     color:floralwhite;
 }
 
@@ -34,6 +34,61 @@ body{
 }
 
 .navbar-dark {
-     background-color: #512DA8;
+     background-color: #4376c2;
 }
 
+.jumbotron {
+    background: url('https://images.giaoducthoidai.vn/1200x630/Uploaded/2023/zdhnwyqjv/2022-06-02/thpt-cva.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px -6px rgba(7,7,88,0.22) 
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #2d1db5;
+    border-color: #4300ff;
+}
+
+.btn-outline-success {
+    color: #fff;
+    background-color: #4a8ef3;
+    border-color: hsl(0, 0%, 100%);
+}
+
+.text-with-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.text-with-strong-shadow {
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 1.5);
+}
+
+.first-content {
+    background-color: #ececec;
+}
+
+.third-content {
+    background-color:#b9bbbe; 
+    
+}
+
+.fourth-content {
+    background-color: #ececec;
+    margin-bottom: 30px;
+}
+
+
+.list-group-item:hover {
+    background-color: #154577;
+    color: #fff; 
+    cursor: pointer; 
+  }
+
+.card {
+    margin: 35px;
+}
+
+.content-anh {
+    margin: 50px;
+}
